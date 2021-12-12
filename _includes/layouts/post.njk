@@ -6,7 +6,8 @@ templateClass: tmpl-post
 
 <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
 
-{{ content | safe }}
+
+<div class="text">{{ content | safe }}</div>
 
 {#
 {%- if collections.posts %}

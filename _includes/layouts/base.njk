@@ -15,7 +15,7 @@
 
       <nav>
       {%- for entry in collections.all | eleventyNavigation %}
-        <a class="nav__item {% if entry.url == page.url %}is-active{% endif %}" href="{{ entry.url | url }}">{{ entry.title }}</a>
+        <a class="nav__item {% if entry.url in page.url %}is-active{% endif %}" href="{{ entry.url | url }}">{{ entry.title }}</a>
       {%- endfor %}
       </nav>
     </header>

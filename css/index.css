@@ -8,7 +8,6 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}details,main{d
 /* https://www.joshwcomeau.com/css/custom-css-reset/ */
 *,::after,::before{box-sizing:border-box}
 *{margin:0}
-body,html{height:100%}
 body{line-height:1.5;-webkit-font-smoothing:antialiased}
 canvas,img,picture,svg,video{display:block;max-width:100%}
 button,input,select,textarea{font:inherit}
@@ -102,6 +101,7 @@ pre, code {
 pre {
 	padding: 1em;
 	background-color: rgba(0, 0, 0, var(--panel-opacity));
+	overflow-x: scroll;
 }
 
 figcaption {
@@ -124,6 +124,7 @@ header {
 }
 
 nav {
+	display: flex;
 	font-size: var(--small-font-size);
 }
 

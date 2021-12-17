@@ -151,7 +151,7 @@ main {
 	left: -1.125em;
 	color: var(--highlight-color);
 	content: "✦";
-	/* content: "➤"; */
+	transform: scale(2), translateY(-0.1em);
 }
 
 .post {

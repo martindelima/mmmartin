@@ -20,7 +20,7 @@ h1,h2,h3,h4,h5,h6,p{overflow-wrap:break-word;}
 ========================================================================= */
 :root {
 	--content-width: 38rem;
-	--default-font: -apple-system, system-ui, sans-serif;
+	--default-font: -apple-system, system-ui, Helvetica, Arial, sans-serif;
 	--text-font: Georgia, 'Times New Roman', Times, serif;
 	--text-font: "Lyon Text", Georgia, 'Times New Roman', Times, serif;
 	--monospace-font: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;;
@@ -147,11 +147,10 @@ main {
 }
 
 .nav__item.is-active:before {
-	position: absolute;
-	left: -1.125em;
-	color: var(--highlight-color);
 	content: "✦";
-	/* content: "➤"; */
+	position: absolute;
+	left: -1em;
+	color: var(--highlight-color);
 }
 
 .post {

@@ -1,3 +1,32 @@
+/*!
+	This font software is the property of Commercial Type.
+	You may not modify the font software, use it on another website, or install it on a computer.
+	License information is available at http://commercialtype.com/eula
+	For more information please visit Commercial Type at http://commercialtype.com or email us at info[at]commercialtype.com
+
+	Copyright (C) 2021 Schwartzco Inc.
+	License: 2112-PQRPFW
+*/
+@font-face {
+  font-family: 'Lyon Text';
+  src: url('fonts/LyonText-RegularNo2Italic-Web.woff2') format('woff2'),
+       url('fonts/LyonText-RegularNo2Italic-Web.woff') format('woff');
+  font-weight:  400;
+  font-style:   italic;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Lyon Text';
+  src: url('fonts/LyonText-RegularNo2-Web.woff2') format('woff2'),
+       url('fonts/LyonText-RegularNo2-Web.woff') format('woff');
+  font-weight:  400;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+
+
 /* ======================================================================
     Reset
 ========================================================================= */
@@ -21,18 +50,17 @@ h1,h2,h3,h4,h5,h6,p{overflow-wrap:break-word;}
 :root {
 	--content-width: 38rem;
 	--default-font: -apple-system, system-ui, sans-serif;
-	--text-font: Georgia, 'Times New Roman', Times, serif;
 	--text-font: "Lyon Text", Georgia, 'Times New Roman', Times, serif;
 	--monospace-font: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;;
 	--text-line-height: 1.5;
 	--base-font-size: 1.125rem;
 	--small-font-size: .85em;
 	--heading-font-size: 1em;
-	--heading-weight: 500;
+	--heading-weight: 600;
 	--highlight-color: orangered;
 	--background-color: ghostwhite;
-	--foreground-color: #2d2d2d;
-	--highlight-brightness: 180%;
+	--foreground-color: #5d5d5d;
+	--highlight-brightness: 150%;
 	--panel-opacity: .0625;
 }
 
@@ -61,6 +89,7 @@ body {
 	max-width: var(--content-width);
 	font-family: var(--default-font);
 	font-size: var(--base-font-size);
+	font-feature-settings: "liga", "kern";
 	background-color: var(--background-color);
 	color: var(--foreground-color);
 
@@ -116,6 +145,15 @@ hr {
 	opacity: .5;
 }
 
+img {
+	margin: 0 auto;
+}
+
+
+
+/* ======================================================================
+    Components
+========================================================================= */
 header {
 	margin-top: 4em;
 	display: flex;
@@ -133,10 +171,6 @@ main {
 	padding-bottom: 4em;
 }
 
-
-/* ======================================================================
-    Components
-========================================================================= */
 .nav__item {
 	position: relative;
 	font-weight: var(--heading-weight);
@@ -149,7 +183,7 @@ main {
 .nav__item.is-active:before {
 	content: "✦";
 	position: absolute;
-	left: -1em;
+	left: -1.125em;
 	/* use a font that explicitly contains the Unicode character */
 	font-family: Helvetica, Arial, sans-serif;
 	color: var(--highlight-color);
@@ -178,7 +212,6 @@ main {
 }
 
 .text :is(p, ul, ol) {
-	/* letter-spacing: -0.00195312em; */
 	font-family: var(--text-font);
 	line-height: var(--text-line-height);
 }

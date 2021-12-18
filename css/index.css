@@ -66,7 +66,7 @@ h1,h2,h3,h4,h5,h6,p{overflow-wrap:break-word;}
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--highlight-color: mediumpurple;
+		--highlight-color: #a085e0;
 		--background-color: #2d2d2d;
 		--foreground-color: #d5d5d5;
 		--highlight-brightness: 120%;
@@ -141,7 +141,7 @@ figcaption {
 
 hr {
 	width: 50%;
-	margin: 4em auto;
+	margin: 3em auto;
 	opacity: .5;
 }
 
@@ -155,7 +155,7 @@ img {
     Components
 ========================================================================= */
 header {
-	margin-top: 4em;
+	margin-top: 4vw;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -197,6 +197,10 @@ main {
 	display: block;
 }
 
+.page--home img {
+	max-width: 250px;
+}
+
 
 
 /* ======================================================================
@@ -222,6 +226,10 @@ main {
 
 .text :is(ul, ol) {
 	list-style-type: initial;
+	padding-left: 1em;
+}
+
+.text li > :is(ul, ol) {
 	padding-left: 1em;
 }
 

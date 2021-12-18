@@ -6,7 +6,7 @@ layout: layouts/home.njk
 
 <div class="text">
 
-Hey, I’m Martin. This is my little internet burrow.
+Hi, I’m Martin. This is my little internet burrow.
 
 I like rain, warm-tinted light, and dark, enclosed spaces.
 

@@ -2,14 +2,18 @@
 layout: layouts/home.njk
 ---
 
+<img src="/img/me.png" alt="hey" />
+
 <div class="text">
 
 Hey, I’m Martin. This is my little internet burrow.
 
-I’m a husband and a father. That‘s my career. I’m trying my best to be good at it.
+I like rain, warm-tinted light, and dark, enclosed spaces.
 
 I’m a web designer/developer by trade. I don’t believe you could truly separate the two, so I make do with the slash.
 
-My personal ethos is to be *chillin’*.
+My *career* is being a husband and father (I guess that's two things already). Just trying my best each day.
+
+My personal ethos is to be chillin’. Lord knows we need it.
 
 </div>

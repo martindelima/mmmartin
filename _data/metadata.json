@@ -2,9 +2,9 @@
   "title": "Martin de Lima",
   "url": "https://mmmart.in/",
   "language": "en",
-  "description": "Part designer, part developer, all slacker",
+  "description": "Dear Internet Diary That Everyone Can Read:",
   "feed": {
-    "subtitle": "Part designer, part developer, all slacker",
+    "subtitle": "Dear Internet Diary That Everyone Can Read:",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://mmmart.in/"

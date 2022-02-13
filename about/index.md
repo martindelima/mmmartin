@@ -11,10 +11,12 @@ eleventyNavigation:
 <div class="text">
 
 ## Currently
-Trying to stay afloat in nearly 3 years of both parenting and a pandemic.
+Just recently moved to Melbourne; still jetlagged.
+	
+Following that, I’m for hire, baby. Have at my [resume](/files/resume_martin-de-lima.pdf), if you’d like.
 
 ## Contact
-You can always [holler](mailto:holler@mmmart.in), friend. I don’t have much in the way of social media. Have at my [resume](/files/resume_martin-de-lima.pdf), if you’d like.
+You can always [holler](mailto:holler@mmmart.in), friend.
 
 ---
 

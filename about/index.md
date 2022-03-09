@@ -11,12 +11,12 @@ eleventyNavigation:
 <div class="text">
 
 ## Currently
-Just recently moved to Melbourne; still jetlagged.
-	
-Following that, I’m for hire, baby. Have at my [resume](/files/resume_martin-de-lima.pdf), if you’d like.
+I've recently been hired as a design engineer (ooh, fancy!) over at [Sesimi](https://sesimi.com/).
 
 ## Contact
 You can always [holler](mailto:holler@mmmart.in), friend.
+	
+Have at my [resume](/files/resume_martin-de-lima.pdf), if you’d like.
 
 ---
 

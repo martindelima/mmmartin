@@ -11,7 +11,7 @@ eleventyNavigation:
 <div class="text">
 
 ## Currently
-I've recently been hired as a design engineer (ooh, fancy!) over at [Sesimi](https://sesimi.com/).
+Just chillin’.
 
 ## Contact
 You can always [holler](mailto:holler@mmmart.in), friend.

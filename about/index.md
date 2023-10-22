@@ -15,8 +15,6 @@ Just chillin’.
 
 ## Contact
 You can always [holler](mailto:holler@mmmart.in), friend.
-	
-Have at my [resume](/files/resume_martin-de-lima.pdf), if you’d like.
 
 ---
 

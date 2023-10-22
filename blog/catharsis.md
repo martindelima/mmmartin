@@ -1,6 +1,6 @@
 ---
-title: Catharsis
-description: That's what this website's for.
+title: Building websites as catharsis
+description: That's what this site's for.
 date: 2021-12-19
 layout: layouts/post.njk
 ---

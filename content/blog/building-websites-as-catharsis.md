@@ -2,7 +2,6 @@
 title: Building websites as catharsis
 description: That's what this site's for.
 date: 2021-12-19
-layout: layouts/post.njk
 ---
 
 Greetings from the murky vantage of December 2021! There’s just so much going on. Here’s a cute little time capsule for you:

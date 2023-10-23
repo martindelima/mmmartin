@@ -2,7 +2,6 @@
 layout: layouts/home.njk
 title: About
 templateClass: page--about
-permalink: /about/
 eleventyNavigation:
   key: About
   order: 2

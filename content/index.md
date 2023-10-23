@@ -2,7 +2,7 @@
 layout: layouts/home.njk
 ---
 
-<img src="/img/me.png" alt="hey" />
+{% image "me.png", "hey" %}
 
 <div class="text">
 

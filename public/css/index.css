@@ -8,22 +8,22 @@
 	License: 2112-PQRPFW
 */
 @font-face {
-  font-family: 'Lyon Text';
-  src: url('fonts/LyonText-RegularNo2Italic-Web.woff2') format('woff2'),
-       url('fonts/LyonText-RegularNo2Italic-Web.woff') format('woff');
-  font-weight:  400;
-  font-style:   italic;
-  font-stretch: normal;
+	font-family: 'Lyon Text';
+	src: url('/fonts/LyonText-RegularNo2Italic-Web.woff2') format('woff2'),
+		url('/fonts/LyonText-RegularNo2Italic-Web.woff') format('woff');
+	font-weight: 400;
+	font-style: italic;
+	font-stretch: normal;
 	font-display: swap;
 }
 
 @font-face {
-  font-family: 'Lyon Text';
-  src: url('fonts/LyonText-RegularNo2-Web.woff2') format('woff2'),
-       url('fonts/LyonText-RegularNo2-Web.woff') format('woff');
-  font-weight:  400;
-  font-style:   normal;
-  font-stretch: normal;
+	font-family: 'Lyon Text';
+	src: url('/fonts/LyonText-RegularNo2-Web.woff2') format('woff2'),
+		url('/fonts/LyonText-RegularNo2-Web.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
 	font-display: swap;
 }
 
@@ -31,18 +31,53 @@
 
 /* ======================================================================
     Reset
+		see: https: //www.joshwcomeau.com/css/custom-css-reset/
 ========================================================================= */
+*,
+::after,
+::before {
+	box-sizing: border-box;
+}
 
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}details,main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline dotted}b,strong{font-weight:bolder}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{color:inherit;display:table;max-width:100%;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio],legend{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}[hidden],template{display:none}
+* {
+	margin: 0;
+}
 
-/* https://www.joshwcomeau.com/css/custom-css-reset/ */
-*,::after,::before{box-sizing:border-box}
-*{margin:0}
-body{line-height:1.5;-webkit-font-smoothing:antialiased}
-canvas,img,picture,svg,video{display:block;max-width:100%}
-button,input,select,textarea{font:inherit}
-h1,h2,h3,h4,h5,h6,p{overflow-wrap:break-word;}
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+
+canvas,
+img,
+picture,
+svg,
+video {
+	display: block;
+	max-width: 100%;
+}
+
+button,
+input,
+select,
+textarea {
+	font: inherit
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	overflow-wrap: break-word;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
 
 
 
@@ -53,7 +88,8 @@ h1,h2,h3,h4,h5,h6,p{overflow-wrap:break-word;}
 	--content-width: 38rem;
 	--default-font: -apple-system, system-ui, sans-serif;
 	--text-font: "Lyon Text", Georgia, 'Times New Roman', Times, serif;
-	--monospace-font: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;;
+	--monospace-font: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	;
 	--text-line-height: 1.5;
 	--base-font-size: 1.125rem;
 	--small-font-size: .85em;
@@ -77,7 +113,7 @@ h1,h2,h3,h4,h5,h6,p{overflow-wrap:break-word;}
 }
 
 @media (prefers-contrast: more) {
-  :root {
+	:root {
 		--highlight-color: var(--foreground-color);
 	}
 }
@@ -175,20 +211,17 @@ main {
 
 .nav__item {
 	position: relative;
-	font-weight: var(--heading-weight);
-}
-
-.nav__item {
 	margin-left: 2em;
-}
+	font-weight: var(--heading-weight);
 
-.nav__item.is-active:before {
-	content: "✦";
-	position: absolute;
-	left: -1.125em;
-	/* use a font that explicitly contains the Unicode character */
-	font-family: Helvetica, Arial, sans-serif;
-	color: var(--highlight-color);
+	&.is-active:before {
+		content: "✦";
+		position: absolute;
+		left: -1.125em;
+		/* use a font that explicitly contains the Unicode character */
+		font-family: Helvetica, Arial, sans-serif;
+		color: var(--highlight-color);
+	}
 }
 
 .post {
@@ -201,6 +234,7 @@ main {
 
 .page--home img {
 	max-width: 250px;
+	height: auto;
 }
 
 
@@ -231,7 +265,7 @@ main {
 	padding-left: 1em;
 }
 
-.text li > :is(ul, ol) {
+.text li> :is(ul, ol) {
 	padding-left: 1em;
 }
 

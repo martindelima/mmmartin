@@ -10,7 +10,7 @@ eleventyNavigation:
 <div class="text">
 
 ## Currently
-Quit the tech industry. Still processing it, but at this point? Still a bit horrified, but ultimately relieved.
+Quit the tech industry. Still processing it, but at this point? A bit horrified still, yet ultimately relieved.
 
 ## Contact
 You can always [holler](mailto:holler@mmmart.in), friend.

@@ -10,7 +10,7 @@ eleventyNavigation:
 <div class="text">
 
 ## Currently
-Quit the tech industry. Still processing it, but at this point? A bit horrified still, yet ultimately relieved.
+Quit frontend development. Still trying to figure out what to do next. Honestly overwhelmed, but it beats being thoroughly burnt out.
 
 ## Contact
 You can always [holler](mailto:holler@mmmart.in), friend.

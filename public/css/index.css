@@ -213,15 +213,15 @@ main {
 	position: relative;
 	margin-left: 2em;
 	font-weight: var(--heading-weight);
+}
 
-	&.is-active:before {
-		content: "✦";
-		position: absolute;
-		left: -1.125em;
-		/* use a font that explicitly contains the Unicode character */
-		font-family: Helvetica, Arial, sans-serif;
-		color: var(--highlight-color);
-	}
+.nav__item.is-active:before {
+	/* use a font that explicitly contains the Unicode character */
+	font-family: Helvetica, Arial, sans-serif;
+	content: "✦";
+	position: absolute;
+	left: -1.125em;
+	color: var(--highlight-color);
 }
 
 .postlist {

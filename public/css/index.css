@@ -9,8 +9,7 @@
 */
 @font-face {
 	font-family: 'Lyon Text';
-	src: url('/fonts/LyonText-RegularNo2Italic-Web.woff2') format('woff2'),
-		url('/fonts/LyonText-RegularNo2Italic-Web.woff') format('woff');
+	src: url('/fonts/LyonText-RegularNo2Italic-Web.woff2') format('woff2');
 	font-weight: 400;
 	font-style: italic;
 	font-stretch: normal;
@@ -19,8 +18,7 @@
 
 @font-face {
 	font-family: 'Lyon Text';
-	src: url('/fonts/LyonText-RegularNo2-Web.woff2') format('woff2'),
-		url('/fonts/LyonText-RegularNo2-Web.woff') format('woff');
+	src: url('/fonts/LyonText-RegularNo2-Web.woff2') format('woff2');
 	font-weight: 400;
 	font-style: normal;
 	font-stretch: normal;

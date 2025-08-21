@@ -10,7 +10,7 @@ eleventyNavigation:
 <div class="text">
 
 ## Currently
-Turns out I still love the web. Trying to find a way to work with it in a healthy way.
+Trying to be more of myself. Designing, writing, paying attention.
 
 ## Contact
 You can always [holler](mailto:holler@mmmart.in), friend.

@@ -10,7 +10,7 @@ eleventyNavigation:
 <div class="text">
 
 ## Currently
-Quit frontend development. Still trying to figure out what to do next. Honestly overwhelmed, but it beats being thoroughly burnt out.
+Turns out I still love the web. Trying to find a way to work with it in a healthy way.
 
 ## Contact
 You can always [holler](mailto:holler@mmmart.in), friend.

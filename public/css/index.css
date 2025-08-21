@@ -87,7 +87,6 @@ h1, h2, h3, h4, h5, h6, p {
 	--default-font: -apple-system, system-ui, sans-serif;
 	--text-font: "Lyon Text", Georgia, 'Times New Roman', Times, serif;
 	--monospace-font: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-	;
 	--text-line-height: 1.5;
 	--base-font-size: 1.125rem;
 	--small-font-size: .85em;
@@ -121,6 +120,46 @@ h1, h2, h3, h4, h5, h6, p {
 /* ======================================================================
     Base styling
 ========================================================================= */
+@view-transition {
+	navigation: auto;
+}
+
+@keyframes fade-in {
+	from {
+		opacity: 0;
+	}
+}
+
+@keyframes fade-out {
+	to {
+		opacity: 0;
+	}
+}
+
+@keyframes slide-from-right {
+	from {
+		transform: translateX(2rem);
+	}
+}
+
+@keyframes slide-to-left {
+	to {
+		transform: translateX(-2rem);
+	}
+}
+
+::view-transition-old(root) {
+	animation:
+		90ms cubic-bezier(0.4, 0, 1, 1) both fade-out,
+		300ms cubic-bezier(0.4, 0, 0.2, 1) both slide-to-left;
+}
+
+::view-transition-new(root) {
+	animation:
+		210ms cubic-bezier(0, 0, 0.2, 1) 90ms both fade-in,
+		300ms cubic-bezier(0.4, 0, 0.2, 1) both slide-from-right;
+}
+
 body {
 	max-width: var(--content-width);
 	font-family: var(--default-font);
@@ -166,7 +205,7 @@ pre, code {
 pre {
 	padding: 1em;
 	background-color: rgba(0, 0, 0, var(--panel-opacity));
-	overflow-x: scroll;
+	overflow-x: auto;
 }
 
 figcaption {

@@ -25,6 +25,14 @@
 	font-display: swap;
 }
 
+@font-face {
+	font-family: 'Inter';
+	src: url('/fonts/instrumentsans-variablefont_wdthwght-webfont.woff2') format('woff2');
+	font-style: normal;
+	font-stretch: normal;
+	font-display: swap;
+}
+
 
 
 /* ======================================================================
@@ -84,13 +92,16 @@ h1, h2, h3, h4, h5, h6, p {
 ========================================================================= */
 :root {
 	--content-width: 38rem;
-	--default-font: -apple-system, system-ui, sans-serif;
+	--default-font: Inter, -apple-system, system-ui, sans-serif;
 	--text-font: "Lyon Text", Georgia, 'Times New Roman', Times, serif;
-	--monospace-font: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	--monospace-font: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 	--text-line-height: 1.5;
 	--base-font-size: 1.125rem;
-	--small-font-size: .85em;
+	--small-font-size: 1rem;
 	--heading-font-size: 1em;
+	--sans-letter-spacing: -.02em;
+	--text-letter-spacing: 0;
+	--code-weight: 500;
 	--heading-weight: 600;
 	--highlight-color: orangered;
 	--background-color: ghostwhite;
@@ -164,6 +175,7 @@ body {
 	max-width: var(--content-width);
 	font-family: var(--default-font);
 	font-size: var(--base-font-size);
+	letter-spacing: var(--sans-letter-spacing);
 	font-feature-settings: "liga", "kern";
 	background-color: var(--background-color);
 	color: var(--foreground-color);
@@ -200,6 +212,7 @@ time {
 pre, code {
 	font-family: var(--monospace-font);
 	font-size: var(--small-font-size);
+	font-weight: var(--code-weight);
 }
 
 pre {
@@ -253,9 +266,8 @@ main {
 }
 
 .nav__item.is-active:before {
-	/* use a font that explicitly contains the Unicode character */
 	font-family: Helvetica, Arial, sans-serif;
-	content: "✦";
+	content: "\2726"; /* Unicode for ✦ */
 	position: absolute;
 	left: -1.125em;
 	color: var(--highlight-color);
@@ -280,7 +292,7 @@ main {
 	margin-top: 3em;
 }
 
-.text h2 {
+.text h1, h2, h3, h4, h5, h6 {
 	margin-top: 2em;
 	font-size: 1em;
 }
@@ -288,6 +300,7 @@ main {
 .text :is(p, ul, ol) {
 	font-family: var(--text-font);
 	line-height: var(--text-line-height);
+	letter-spacing: var(--text-letter-spacing);
 }
 
 .text p {

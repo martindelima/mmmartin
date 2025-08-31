@@ -9,16 +9,15 @@ eleventyNavigation:
 
 <div class="text">
 
-## Currently
-Trying to be more of myself. Designing, writing, paying attention.
-
 ## Contact
 You can always [holler](mailto:holler@mmmart.in), friend.
 
 ---
 
-## Nerd deets
-This site is typeset in [Lyon Text](https://commercialtype.com/catalog/lyon_text) Regular No 2, licensed via [Commercial Type](https://commercialtype.com/). Headings are in whatever sans-serif your device comes with.
+## Nerd Deets
+
+### Colophon
+This site’s main text is typeset in [Lyon Text](https://commercialtype.com/catalog/lyon_text) Regular No 2. Everything else is in [Inter](https://rsms.me/inter/).
 
 Built with [Eleventy](https://www.11ty.dev/), and hosted on [Netlify](https://www.netlify.com/).
 

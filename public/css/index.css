@@ -27,7 +27,7 @@
 
 @font-face {
 	font-family: 'Inter';
-	src: url('/fonts/instrumentsans-variablefont_wdthwght-webfont.woff2') format('woff2');
+	src: url('/fonts/InterVariable.woff2') format('woff2');
 	font-style: normal;
 	font-stretch: normal;
 	font-display: swap;
@@ -99,10 +99,10 @@ h1, h2, h3, h4, h5, h6, p {
 	--base-font-size: 1.125rem;
 	--small-font-size: 1rem;
 	--heading-font-size: 1em;
-	--sans-letter-spacing: -.02em;
+	--sans-letter-spacing: -.0175em;
 	--text-letter-spacing: 0;
 	--code-weight: 500;
-	--heading-weight: 600;
+	--heading-weight: 550;
 	--highlight-color: orangered;
 	--background-color: ghostwhite;
 	--foreground-color: #5d5d5d;

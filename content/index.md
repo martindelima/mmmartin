@@ -16,4 +16,9 @@ My *career* is being a husband and father (I guess that’s two things already).
 
 My personal ethos is to be chillin’. Lord knows we need it.
 
+---
+
+## Currently:
+Building my portfolio from scratch. Starting with branding for a local playgroup my wife started, then building a lil’ website for it as well.
+
 </div>

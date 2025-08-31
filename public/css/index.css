@@ -308,7 +308,8 @@ main {
 }
 
 .text :is(ul, ol) {
-	list-style-type: initial;
+	list-style-type: circle; /* fallback */
+	list-style-type: "\2013\2002";
 	padding-left: 1em;
 }
 

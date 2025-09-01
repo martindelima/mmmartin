@@ -210,7 +210,7 @@ time {
 	font-size: var(--small-font-size);
 }
 
-pre, code {
+pre, code, kbd {
 	font-family: var(--monospace-font);
 	font-size: var(--small-font-size);
 	font-weight: var(--code-weight);

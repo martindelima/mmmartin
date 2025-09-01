@@ -21,4 +21,7 @@ This site’s main text is typeset in [Lyon Text](https://commercialtype.com/cat
 
 Built with [Eleventy](https://www.11ty.dev/), and hosted on [Netlify](https://www.netlify.com/).
 
+### Uses
+I like browsing [/uses pages](https://uses.tech) and seeing how other people use their computers. [Here’s mine.](/uses).
+
 </div>

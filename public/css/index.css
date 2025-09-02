@@ -280,6 +280,11 @@ main {
 	gap: 2em;
 }
 
+.subtitle {
+	font-size: var(--small-font-size);
+	font-weight: unset;
+}
+
 .page--home img {
 	max-width: 250px;
 	height: auto;

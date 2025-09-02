@@ -4,7 +4,10 @@ title: Uses
 templateClass: page--uses
 ---
 
-<h1>My desk</h1>
+<h1>The things I use</h1>
+<h2 class="subtitle">
+	Last updated <time datetime="2025-09">September 2025</time>
+</h2>
 
 <div class="text">
 

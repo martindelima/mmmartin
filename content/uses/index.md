@@ -85,8 +85,6 @@ I also keep an inspo library, which is just a folder on my iCloud. Any image I r
 ### Utilities
 - [Soulver](https://soulver.app)
 	- Being able to write text *while* thinking about numbers was a paradigm shift for me. Indispensable.
-- [Alfred](https://www.alfredapp.com)
-	- I have three main uses for it: opening apps & files, toggling dark mode/night shift, and clipboard history. With MacOS 26 adding these features to Spotlight, me and Alfred might part ways soon.
 - [BetterTouchTool](https://folivora.ai)
 	- Lets you add custom keyboard shortcuts or mouse/trackpad gestures to apps. Does window management too! Very powerful. If I were to list all I do with it, we might be here a while. I need it for a Mac to feel like it’s mine.
 

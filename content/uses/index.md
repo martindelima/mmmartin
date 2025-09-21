@@ -33,7 +33,7 @@ I may not always be at this desk, but when I am, I’m in the zone. I *want* to 
 
 ## Hardware
 - M2 Macbook Air, *Jupiter*
-	- Almost perfectly invisible. My one gripe is if I wake it from sleep too quickly, it sometimes triggers a kernel panic. The wallpaper is a frame from [*The Red Turtle.*](https://www.imdb.com/title/tt3666024) Lovely film.
+	- Almost perfectly invisible. The wallpaper is a frame from [*The Red Turtle.*](https://www.imdb.com/title/tt3666024) Lovely film.
 - iPad Mini (2024), *Saturn*
 	- For reading, games, editing photos, and drawing. Sometimes a second screen. The most sincere form of the iPad.
 - iPhone 15 Pro, *Mercury*

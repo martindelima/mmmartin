@@ -19,6 +19,7 @@ My personal ethos is to be chillin’. Lord knows we need it.
 ---
 
 ## Currently:
-Building my portfolio from scratch. Starting with branding for a local playgroup my wife started, then building a lil’ website for it as well.
+New role‘s taking a lot out of me. Plus a recurring foot injury just eroding my trust in my body.
 
+It‘ll buff out.
 </div>

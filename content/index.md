@@ -19,7 +19,7 @@ My personal ethos is to be chillin’. Lord knows we need it.
 ---
 
 ## Currently:
-New role‘s taking a lot out of me. Plus a recurring foot injury just eroding my trust in my body.
+New role’s taking a lot out of me. Plus a recurring foot injury just eroding my trust in my body.
 
-It‘ll buff out.
+It’ll buff out.
 </div>

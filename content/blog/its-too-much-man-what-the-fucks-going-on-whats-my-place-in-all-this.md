@@ -4,8 +4,6 @@ description: fuck this
 date: 2026-03-10
 ---
 
-# It's too much man, what the fuck's going on, what's my place in all this
-
 Godammit. Any of y'all just…feel awful about their life's trajectory, and you make these [wishy-washy blog posts](https://mmmart.in/blog/walking-back-the-long-hard-stupid-way/) or maybe videos or social posts or whatever, where you go "I have decided that I'm going to do some...thing" and then end up with months of radio silence cause surprise, the thing's actually hard (or, let’s be real, *takes work*)? Or other shit gets in the way? Or whatever excuses you have and you feel bad and you're just exhausted cause working a shitty job and paying bills and dodging news headlines like a tommy gun rat-tat-tatting at your feet is a lot to deal with already?
 
 Well I do! Man. Fuck. It's too much man, what the fuck's going on? What's my place in all this? And I have *a child???* The audacity of anyone in this accursed timeline to bring forth progeny. And I have to give her a good life, convince her there's good in the world as I myself…well actually I do see it, just not in…\*waves arms around* alla this. But you know what I mean? I thank my parents for the gift of life, but jeeeeezus do you really win some and lose some.

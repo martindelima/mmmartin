@@ -32,12 +32,14 @@ For context: I use these to write, design, make lil’ websites, edit photos, an
 I may not always be at this desk, but when I am, I’m in the zone. I *want* to work here more than anyplace else.
 
 ## Hardware
+- Sigma BF, *Cassini*
+	- Got back into cameras. I got the matching 45 and 90mm f2.8 primes to go along with it.
 - M2 Macbook Air, *Jupiter*
 	- Almost perfectly invisible. The wallpaper is a frame from [*The Red Turtle.*](https://www.imdb.com/title/tt3666024) Lovely film.
 - iPad Mini (2024), *Saturn*
-	- For reading, games, editing photos, and drawing. Sometimes a second screen. The most sincere form of the iPad.
+	- For editing photos and drawing. Sometimes a second screen. The most sincere form of the iPad.
 - iPhone 15 Pro, *Mercury*
-	- My camera, chosen specifically because it’s the last one with the 3× tele lens. I get far more mileage out of ~80mm than ~120mm. It’s a phone too, I guess.
+	- Now that I have a dedicated camera again, this is now my wide-angle shooter. I can skip getting a Pro the next time I need a replacement. It’s a phone too, I guess.
 
 What a time we’re living in. This is *so much computer* within reach. Until we can directly translate thought into digital output, I’m good.
 
@@ -53,8 +55,8 @@ These peripherals feel like the stars aligning; like a latch inside me *ker-chun
 
 ## Software
 ### Tools for making
-- [Obsidian](https://obsidian.md)
-	- It seemed very complex, but when I realised I could just disable all the extras, I switched. All my text output is here; from notes to longform writing. Also a to-do file for when I can’t do something right away. I find that’s about the absolute extent of “task management” that works for me. Any more and I procrastinate.
+- [IA Writer](https://ia.net/writer)
+	- Back to IA. It works. I probably shouldn’t have bothered trying out other writing apps.
 - [Figma](http://figma.com)
 	- I’ve avoided Adobe so hard throughout my life. One reason I learned front-end dev was to skip Photoshop. I’m glad the buyout didn’t happen. But anyways, yeah, Figma! Figma is good.
 - [VS Codium](https://vscodium.com)
@@ -62,7 +64,7 @@ These peripherals feel like the stars aligning; like a latch inside me *ker-chun
 - [Github Desktop](https://github.com/apps/desktop)
 	- I’m the type of person who really needs to have a UI for git. Lets my brain wrap around it better.
 - [Photomator](https://www.pixelmator.com/photomator/)
-	- My main photo editor. It works right off the camera roll, and has every editing feature I need…which isn’t a lot, to be fair. I rather hate editing. I enjoy taking photos far more than tweaking them.
+	- My main photo editor. It works right off the camera roll, and has every editing feature I need…which isn’t a lot, to be fair. Shame it doesn’t
 - [Procreate](https://procreate.com/procreate) and [Procreate Dreams](https://procreate.com/dreams)
 	- The de facto iPad drawing app. They deserve all the success they have. I can’t think of a way I disagree with how these apps work.
 
